@@ -7,5 +7,5 @@
 - To Do List
 - Weather
 
-## Try is out
-- https://ysh1096.github.io/JavaScript-Practice/
+## Try it out
+ https://ysh1096.github.io/JavaScript-Practice/
