@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>Something</title>
-    <meta charset = "utf-8"/>
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap" rel="stylesheet" />
+
     <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
+  </head>
 
-<body>
-    <div class="js-clock">
-        <h1 class="js-title">00:00</h1>
-    </div>
+  <body>
+    <section class="mainpage">
+      <div class="main-background">
+        <div class="js-clock">
+          <h1 class="js-title">00:00</h1>
+        </div>
 
-    <form class="js-form form">
-        <input type="text" placeholder="What is your name?"/>
-   
-    </form>
-    <h4 class="js-greetings greetings"></h4>
+        <form class="js-form form">
+          <input type="text" placeholder="What is your name?" />
+        </form>
+        <h4 class="js-greetings greetings"></h4>
 
-    <form class="js-toDoForm">
-        <input type="text" placeholder="Wirte a to do" />
+        <form class="js-toDoForm">
+          <input type="text" placeholder="Wirte a to do" />
+        </form>
+        <ul class="js-toDoList"></ul>
 
+        <spanc class="js-weather"></spanc>
+      </div>
+    </section>
 
-    </form>
-    <ul class="js-toDoList">
-
-    </ul>
-    <spanc class="js-weather"></spanc>
     <script src="clock.js"></script>
     <script src="greeting.js"></script>
     <script src="todo.js"></script>
     <script src="bg.js"></script>
     <script src="weather.js"></script>
-</body>
-
+  </body>
 </html>
