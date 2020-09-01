@@ -97,6 +97,11 @@ ol {
   margin-bottom: 10px;
 }
 
+.js-toDoList span button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .main-background {
   display: flex;
   flex-direction: column;
@@ -105,4 +110,15 @@ ol {
   background-color: #13131370;
   border-radius: 10px;
   padding: 30px;
+}
+
+.js-toDoList button {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: rgb(236, 109, 87);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: 10px;
 }
