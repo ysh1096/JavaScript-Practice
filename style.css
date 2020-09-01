@@ -108,6 +108,7 @@ ol {
   justify-content: center;
   align-items: center;
   background-color: #13131370;
+  width: 500px;
   border-radius: 10px;
   padding: 30px;
 }
